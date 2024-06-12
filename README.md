@@ -41,6 +41,6 @@ Contributing
 We welcome contributions from educators, professionals, and students. If you have resources, videos, or insights that you believe would benefit our community, please reach out to us through the contact page.
 
 # Contact Us
-For any inquiries, feedback, or support, please contact us at contact@csroadmap.com. We are here to help you succeed in your computer science journey.
+For any inquiries, feedback, or support, please contact us at kenzy.abdlatif@ejust.edu.eg . We are here to help you succeed in your computer science journey.
 
 Thank you for choosing the Computer Science Roadmap website. We are excited to support you on your path to success in the dynamic field of computer science!
