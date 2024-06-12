@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" 
+	Inherits="WebApplication3.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> </title>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="/css/menu.css"/>
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+        AOS.init();
+    </script>
+    
+</head>
+<body>
+	    <form runat="server">
+
+	<header>
+
+		<div id="header" class="header">
+			<div class="search-container">
+				<div id="searchForm">
+					<input type="text" placeholder="Search.." name="search" />
+					<button type="submit"><i class="fa fa-search"></i></button>
+				</div>
+				</div>
+			<nav class="nav">
+				<a href="Webform1.aspx"><li>Home</li></a>
+				<li>Tracks</li>
+				<li>About</li>
+				<li class="active"><a href="Login.aspx">Login</a></li>
+				<li class="active"><a href="SignUp.aspx">SignUp</a></li>
+				<li id="bind" class="bind">
+					<i id="light" data-aos="fade-up" data-aos-duration="2000" class="fas fa-moon"></i>			
+
+				</li>
+			</nav>
+			</div>     
+			<script>
+                AOS.init();
+            </script>
+	<script src="/js/app.js"></script>
+			
+		  
+    	</header>  
+    </form>
+	  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+	<footer>
+		<div class="contact">
+		<h1>Contact US</h1>
+		<div class="row">
+			<h1>Mytrack@gamil.com</h1>
+</div>
+			</div>
+	</footer>
+</body>
+</html>
