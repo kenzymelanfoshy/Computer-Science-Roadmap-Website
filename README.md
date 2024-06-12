@@ -12,6 +12,7 @@ Each track has a dedicated section outlining the recommended steps, skills, and 
 Artificial Intelligence (AI): Dive into the world of AI with a roadmap that covers fundamental concepts, machine learning, neural networks, and more.
 Cyber Security: Explore the essential skills and knowledge areas in cyber security, including ethical hacking, cryptography, and network security.
 Software Engineering: Follow a structured path to become a proficient software engineer, focusing on programming languages, software development methodologies, and system design.
+
 Bioinformatics: Learn how to apply computational techniques to biological data, with guidance on genetics, genomics, and bioinformatics tools.
 2. Additional Videos
 In addition to the written roadmaps, we offer a collection of videos that provide deeper insights into each track. These videos include lectures, interviews with professionals, and tutorials to help you gain a practical understanding of complex topics.
